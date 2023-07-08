@@ -1,0 +1,65 @@
+body {
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+    background: #ebe7e7;
+    font-family: "roboto";
+    max-width: 640px;
+  }
+  
+  .container {
+    background: white;
+    width: 640px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+          
+  }
+
+  .topbar {
+    display: flex;
+    margin: 0.3rem;
+    margin-bottom: -0.5rem;
+  
+  }
+  
+  .userpic {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    overflow: hidden;
+    position: relative;
+    
+  }
+  
+  .username {
+    margin: 0;
+    margin-top: -0.5rem;
+    display: flex;
+  
+  }
+  
+  .icons {
+    font-size: 25px;
+    display: flex;
+  }
+  
+  .icons :last-child{
+    margin-left: auto;
+  }
+  
+  .footer {
+    padding: 1rem;
+  }
+  
+  .dots {
+    margin-left: auto;
+    font-size: 25px;
+    margin-top: 0.5rem;
+    padding-right: 1rem;
+    
+  }
+  
